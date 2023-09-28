@@ -40,6 +40,13 @@ When the user clicks the HTML button above, HTXM will call the GET '/clicked' en
 ```
 
 This is the power of HTMX. Without using any JavaScript, the browser was able to dynamically update the button text based on user-interaction. Of course the main difference from the typical client-server dynamic is that the server generated some valid HTML, not JSON or something else. This shifts the burden of HTML generation to the server, which I like as someone who is more biased toward backend development. Furthermore, since no serialization/deserialization logic was needed to decode the response from the server, HTMX simplifies all kinds of annoying client-server issues surrounding transforming objects over-the-network. The request simply gives back HTML! This is why there's a lot of buzz about HTMX and why I think it is such an interesting idea.
+
+Now let's talk about styling. Typically a frontend dev will rely on all kinds of frameworks for stylizing components. They may use MUI, Bulma, Bootstrap, the list goes on and on and on. A frontend dev might also opt for plain old CSS, if they are good enough, but transitions and all kinds of more complex stylizing goals may be difficult and require large amounts of CSS to get right. Enter Tailwind CSS. Tailwind allows frontend devs to simply decorate their component classes with valid Tailwind classifiers to get stylizing looking right with little to no CSS and certainly no huge JavaScript library dependencies. Since Tailwind CSS is built entirely on decorating elements with class names, it makes it extremely powerful for websites that avoid JavaScript altogether, like HTMX-driven websites. To this end I chose to use Tailwind CSS, and I'm not looking back.
+
+**so in summary, HTMX and Tailwind CSS allow frontend devs to create rich dynamic server-powered websites with little to no JavaScript.**
+
+Regardless, HTMX is still somewhat new and it may prove difficult to imbed web apps with all kinds of security and advanced features the frontend dev may want for a fully featured web-app. However, since this is essentially a static webpage, it is the perfect proving ground for HTMX. For this reason I was able to avoid overengineering this website, which is fantastic.
+
 ## Tech Stack
 
 **Libraries:** HTMX (https://htmx.org/)
