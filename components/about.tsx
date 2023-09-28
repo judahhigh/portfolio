@@ -32,13 +32,13 @@ export function About() {
         </p>
         <p class="w-2/3 text-2xl pb-8 text-justify">
           This website, while doubling as a proffessional portfolio for my
-          career, was also an incredibly wonderful learning experience. Since
-          this website does not require dynamic behavior that would hook into
-          all kinds of backend technologies, I am left a bit unfullfilled. For
-          this project I had no need to develop a backend and perform requests
-          to swap out HTML. For this reason I am looking forward to using HTMX
-          in a much more complex project requiring many more features supported
-          by the HTMX library.
+          career, was also a wonderful learning experience. Since this website
+          does not require dynamic behavior that would hook into all kinds of
+          backend technologies, I am left a bit unfullfilled. For this project I
+          had no need to develop a backend and perform requests to swap out
+          HTML. For this reason, I am looking forward to using HTMX in a much
+          more complex project requiring many more features supported by the
+          HTMX library.
         </p>
       </div>
     </div>

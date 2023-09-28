@@ -17,22 +17,22 @@ export function NavBar() {
             </button>
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div class="flex flex-shrink-0 items-center">
+            <div class="flex flex-shrink-0">
               <img
-                class="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                class="h-11 w-11 rounded-full"
+                src="../public/profile.jpeg"
                 alt="Your Company"
               ></img>
             </div>
-            <div class="hidden sm:ml-6 sm:block">
-              <div class="flex space-x-4">
+            <div class="hidden sm:ml-6 sm:block pt-1">
+              <div class="flex space-x-4 items-center">
                 <a
                   href="/home"
                   hx-get="/home"
                   hx-trigger="click"
                   hx-swap="innerHTML"
                   hx-target="#body"
-                  class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                  class="bg-gray-900 hover:bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium"
                   aria-current="page"
                 >
                   Home
@@ -59,15 +59,6 @@ export function NavBar() {
                 </a>
               </div>
             </div>
-          </div>
-          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button
-              type="button"
-              class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-            >
-              <span class="absolute -inset-1.5"></span>
-              <span class="sr-only">View notifications</span>
-            </button>
           </div>
         </div>
       </div>

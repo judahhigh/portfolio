@@ -1,6 +1,6 @@
-import * as elements from "typed-html";
+import * as elements from 'typed-html';
 import { NavBar } from "./nav";
-import {Profile} from "./types"
+import { Profile } from "./types";
 
 export function Home({ profile }: { profile: Profile }) {
   return (

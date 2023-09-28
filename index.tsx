@@ -25,6 +25,7 @@ const app = new Elysia()
   .get("/projects", () => <ProjectList projects={project_db} />)
   .get("/home", () => <Home profile={profile_db} />)
   .get("/about", () => <About />)
+  .get("/public/profile.jpeg", () => Bun.file("./public/profile.jpeg"))
   .listen(3000);
 
 console.log(
@@ -41,7 +42,6 @@ const BaseHtml = ({ children }: elements.Children) => `
   <title>Judah High</title>
   <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link type="text/css" rel="stylesheet" href="css_1.css">
 </head>
 
 ${children}
