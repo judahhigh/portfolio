@@ -133,7 +133,7 @@ export const project_db: Project[] = [
       "Biscuit auth",
       "REST",
       "SQLite",
-      "Prisma"
+      "Prisma",
     ],
     links: [
       "https://github.com/judahhigh/contacts-frontend",
@@ -142,7 +142,8 @@ export const project_db: Project[] = [
   },
   {
     title: "An E-Commerce Store",
-    description: "This project consists of two parts. First is a microservice architecture to support everything related to a common e-commerce store application like Amazon. It needs to handle user registration and login, search, transactions, vendor information and pages, customer support, settings, etc. I was interested in showcasing how one might create a microservice architecture to handle all of this. Second is a e-commerce store frontend to effectuate everything a user or vendor might want to do on an e-commerce store. It's by no means a small project and will take time to complete. Regardless, it's given me a chance to use a popular server-side language like Go to build it. It also gave me the opportunity to work with cloud infrastructure, and container orchestration systems powered by Docker and Kubernetes. I'm also getting to experiment with REST, gRCP, message broking through RabbitMQ, and more. For the frontend I'm choosing to use TypeScript with Svelte and SvelteKit, which from my previous experience lends itself to creating extremely well-organized fully featured client applications. This project is truly a challenge, but a worthwhile one at that.",
+    description:
+      "This project consists of two parts. First is a microservice architecture to support everything related to a common e-commerce store application like Amazon. It needs to handle user registration and login, search, transactions, vendor information and pages, customer support, settings, etc. I was interested in showcasing how one might create a microservice architecture to handle all of this. Second is a e-commerce store frontend to effectuate everything a user or vendor might want to do on an e-commerce store. It's by no means a small project and will take time to complete. Regardless, it's given me a chance to use a popular server-side language like Go to build it. It also gave me the opportunity to work with cloud infrastructure, and container orchestration systems powered by Docker and Kubernetes. I'm also getting to experiment with REST, gRCP, message broking through RabbitMQ, and more. For the frontend I'm choosing to use TypeScript with Svelte and SvelteKit, which from my previous experience lends itself to creating extremely well-organized fully featured client applications. This project is truly a challenge, but a worthwhile one at that.",
     languages: ["Go", "TypeScript"],
     technologies: [
       "Svelte",
@@ -161,8 +162,9 @@ export const project_db: Project[] = [
     links: ["https://github.com/judahhigh/estore-backend"],
   },
   {
-    title: "My Personal Portfolio, this website",
-    description: "This website gave me a chance to work with an emerging technology called HTMX, that stands for HTML extensions. It is a library to powerup plain-old HTML with new powers that gives the frontend dev the opportunity of avoiding JavaScript and the endless land of JavaScript dependencies. Serving the website with Bun, and Elysia, allowed me to create an incredibly simple and responsive website as well. Not only this, but with Tailwind CSS I had the chance to make plain-old HTML look good with class decorating only. This website allows me to showcase my skills, personal projects, learning experiences, and interests. Perusing this website should show that I am an incredibly driven and curious person software engineer. I get deep fulfillment from pushing my own boundaries, staying ahead of industry shifts, learning new technologies, and making the most of my career as a budding software engineer.",
+    title: "Portfolio, this website",
+    description:
+      "This website gave me a chance to work with an emerging technology called HTMX, that stands for HTML extensions. It is a library to powerup plain-old HTML with new powers that gives the frontend dev the opportunity of avoiding JavaScript and the endless land of JavaScript dependencies. Serving the website with Bun, and Elysia, allowed me to create an incredibly simple and responsive website as well. Not only this, but with Tailwind CSS I had the chance to make plain-old HTML look good with class decorating only. This website allows me to showcase my skills, personal projects, learning experiences, and interests. Perusing this website should show that I am an incredibly driven and curious person software engineer. I get deep fulfillment from pushing my own boundaries, staying ahead of industry shifts, learning new technologies, and making the most of my career as a budding software engineer.",
     languages: ["TypeScript"],
     technologies: ["HTMX", "Tailwind CSS", "Bun"],
     links: ["https://github.com/judahhigh/portfolio"],

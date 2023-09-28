@@ -1,4 +1,4 @@
-import * as elements from 'typed-html';
+import * as elements from "typed-html";
 import { NavBar } from "./nav";
 import { Profile } from "./types";
 
@@ -50,6 +50,41 @@ export function Home({ profile }: { profile: Profile }) {
             {profile.other.map((other) => (
               <li class="text-2xl">{other}</li>
             ))}
+          </ul>
+        </div>
+        <div class="w-2/3 flex flex-col pb-8">
+          <p class="text-4xl font-bold pb-8 text-center">Education</p>
+          <ul class="flex flex-col list-disc justify-items-center gap-2">
+            <li class="text-2xl">
+              Ph.D. Computational Quantum Chemistry - North Carolina State
+              University
+            </li>
+            <li class="text-2xl">
+              B.S. ACS Certified Chemistry - Appalachian State University
+            </li>
+          </ul>
+        </div>
+        <div class="w-2/3 flex flex-col pb-8">
+          <p class="text-4xl font-bold pb-8 text-center">Publications</p>
+          <ul class="flex flex-col list-disc justify-items-center gap-2">
+            <li class="text-xl">
+              <a
+                class="text-blue-600 hover:text-blue-900"
+                href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.6b05739"
+              >
+                High, J. S.; Rego L. G. C.; Jakubikova, E. J. Phys. Chem. A,
+                <strong>2016</strong>, 120(41), 8075-8084.
+              </a>
+            </li>
+            <li class="text-xl">
+              <a
+                class="text-blue-600 hover:text-blue-900"
+                href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05600"
+              >
+                High, J. S.; Virgil, K. A.; Jakubikova, E. J. Phys. Chem. A,
+                <strong>2015</strong>, 119(38), 9879-9888.
+              </a>
+            </li>
           </ul>
         </div>
       </div>

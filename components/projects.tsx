@@ -29,7 +29,9 @@ function ProjectItem({
       <ul class="grid grid-cols-1 list-disc ps-8 justify-items-center">
         {links.map((link) => (
           <li class="text-2xl">
-            <a href={link}>{link}</a>
+            <a class="text-blue-600 hover:text-blue-900" href={link}>
+              {link}
+            </a>
           </li>
         ))}
       </ul>
