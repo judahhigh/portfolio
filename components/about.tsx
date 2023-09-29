@@ -6,8 +6,8 @@ export function About() {
     <div class="h-screen">
       <NavBar items={[]}/>
       <div class="flex flex-col h-full justify-start items-center">
-        <p class="text-8xl font-extrabold py-8">About</p>
-        <p class="w-2/3 text-2xl pb-8 text-justify">
+        <p class="text-6xl md:text-8xl font-extrabold py-8">About</p>
+        <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
           This website was built using HTXM, JSX, and Bun, a fast all-in-one
           JavaScript runtime. I chose to implement this website using HTMX
           firstly becuase of its growing popularity, and secondly because it is
@@ -18,19 +18,19 @@ export function About() {
           updates to the same or any other HTML element. No more worrying about
           a virtual DOM and all the idiosyncrasies that come with that game.
         </p>
-        <p class="w-2/3 text-2xl pb-8 text-justify">
+        <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
           Futhermore, the HTMX developer experience can be greatly boosted with
           JSX to support the implementation of functional HTMX components.
           That's right, not React components, HTMX components.
         </p>
-        <p class="w-2/3 text-2xl pb-8 text-justify">
+        <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
           Integration with Bun creates an efficient stack for a great frontend
           development and deployment experience. I have also chosen to use
           Tailwind CSS for HTML styling. Tailwind is an extremely powerful and
           natural choice for styling without having to depend on a ton of JS
           libraries.
         </p>
-        <p class="w-2/3 text-2xl pb-8 text-justify">
+        <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
           This website, while doubling as a proffessional portfolio for my
           career, was also a wonderful learning experience. Since this website
           does not require dynamic behavior that would hook into all kinds of
