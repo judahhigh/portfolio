@@ -26,6 +26,7 @@ const app = new Elysia()
   .get("/home", () => <Home profile={profile_db} />)
   .get("/about", () => <About />)
   .get("/public/profile.jpeg", () => Bun.file("./public/profile.jpeg"))
+  .get("/public/jhigh_resume.pdf", () => Bun.file("./public/jhigh_resume.pdf"))
   .listen(3000);
 
 console.log(
