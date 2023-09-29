@@ -15,6 +15,7 @@
   "dependencies": {
     "@elysiajs/fn": "^0.6.1",
     "@elysiajs/html": "^0.5.2",
-    "elysia": "^0.5.22"
+    "elysia": "^0.5.22",
+    "tailwindcss": "^3.3.3"
   }
 }

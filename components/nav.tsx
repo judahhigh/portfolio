@@ -2,7 +2,7 @@ import * as elements from "typed-html";
 
 export function NavBar() {
   return (
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav class="sticky top-0 bg-white border-gray-200 dark:bg-gray-900">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="/home"
