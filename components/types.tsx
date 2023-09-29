@@ -10,4 +10,10 @@ export type Project = {
   languages: string[];
   technologies: string[];
   links: string[];
+  id: string;
 };
+
+export type TOCItem = {
+  title: string,
+  id: string,
+}

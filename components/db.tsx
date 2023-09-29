@@ -139,6 +139,7 @@ export const project_db: Project[] = [
       "https://github.com/judahhigh/contacts-frontend",
       "https://github.com/judahhigh/contacts-backend",
     ],
+    id: "contactswebapp",
   },
   {
     title: "An E-Commerce Store",
@@ -160,6 +161,7 @@ export const project_db: Project[] = [
       "PostgreSQL",
     ],
     links: ["https://github.com/judahhigh/estore-backend"],
+    id: "e-commerce-store",
   },
   {
     title: "Portfolio, this website",
@@ -168,5 +170,6 @@ export const project_db: Project[] = [
     languages: ["TypeScript"],
     technologies: ["HTMX", "Tailwind CSS", "Bun"],
     links: ["https://github.com/judahhigh/portfolio"],
+    id: "portfolio",
   },
 ];

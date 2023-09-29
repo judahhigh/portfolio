@@ -1,40 +1,26 @@
 import * as elements from "typed-html";
 import { NavBar } from "./nav";
-import { Profile } from "./types";
+import { Profile, TOCItem } from "./types";
+import { TOC } from "./toc";
 
 export function Home({ profile }: { profile: Profile }) {
+  const classContentsItem =
+    "text-lg border-l pl-3 -ml-px hover:border-secondary border-content";
+  const classContentsText = "hover:text-secondary";
+  const items: TOCItem[] = [
+    {id: "introduction", title: "Introduction"},
+    {id: "languages", title: "Languages"},
+    {id: "technologies", title: "Technologies"},
+    {id: "other", title: "Other"},
+    {id: "education", title: "Education"},
+    {id: "publications", title: "Publications"},
+  ];
   return (
     <div class="h-screen">
-      <NavBar />
+      <NavBar items={items} />
       <div class="grid grid-cols-6 gap-0">
-        <div class="col-span-1 bg-slate-200 overflow-y-auto pl-6 pr-6">
-          <div class="fixed z-20">
-            <p class="text-2xl font-extrabold py-4 pb-2 text-left">
-              Contents
-            </p>
-            <ul class="border-l border-blue-950">
-              <li class="text-lg border-l pl-3 -ml-px text-blue-600 hover:text-blue-900 hover:border-blue-700">
-                <a href="#introduction">Introduction</a>
-              </li>
-              <li class="text-lg border-l pl-3 -ml-px text-blue-600 hover:text-blue-900 hover:border-blue-700">
-                <a href="#languages">Languages</a>
-              </li>
-              <li class="text-lg border-l pl-3 -ml-px text-blue-600 hover:text-blue-900 hover:border-blue-700">
-                <a href="#technologies">Technologies</a>
-              </li>
-              <li class="text-lg border-l pl-3 -ml-px text-blue-600 hover:text-blue-900 hover:border-blue-700">
-                <a href="#other">Other</a>
-              </li>
-              <li class="text-lg border-l pl-3 -ml-px text-blue-600 hover:text-blue-900 hover:border-blue-700">
-                <a href="#education">Education</a>
-              </li>
-              <li class="text-lg border-l pl-3 -ml-px text-blue-600 hover:text-blue-900 hover:border-blue-700">
-                <a href="#publications">Publications</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-span-5 flex flex-col h-full justify-start items-center">
+        <TOC items={items} />
+        <div class="col-span-6 md:col-span-5 flex flex-col h-full justify-start items-center">
           <p class="text-8xl font-extrabold py-8">Home</p>
           <p class="text-4xl font-bold pb-8" id="introduction">
             Introduction

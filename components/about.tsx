@@ -4,7 +4,7 @@ import { NavBar } from "./nav";
 export function About() {
   return (
     <div class="h-screen">
-      <NavBar />
+      <NavBar items={[]}/>
       <div class="flex flex-col h-full justify-start items-center">
         <p class="text-8xl font-extrabold py-8">About</p>
         <p class="w-2/3 text-2xl pb-8 text-justify">
