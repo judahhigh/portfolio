@@ -57,7 +57,9 @@ Regardless, HTMX is still somewhat new and it may prove difficult to imbed web a
 * Bun (https://bun.sh/)
 * Elysia (https://elysiajs.com/)
 
-**Styling:** Tailwind CSS (https://tailwindcss.com/docs/installation/play-cdn)
+**Styling:** 
+* Tailwind CSS (https://tailwindcss.com/docs/installation/play-cdn)
+* Daisy UI (https://daisyui.com/)
 
 **Syntax extensions:** 
 * JSX (https://react.dev/learn/writing-markup-with-jsx)
