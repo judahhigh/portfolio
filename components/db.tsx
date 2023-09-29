@@ -166,9 +166,9 @@ export const project_db: Project[] = [
   {
     title: "Portfolio, this website",
     description:
-      "This website gave me a chance to work with an emerging technology called HTMX, that stands for HTML extensions. It is a library to powerup plain-old HTML with new powers that gives the frontend dev the opportunity of avoiding JavaScript and the endless land of JavaScript dependencies. Serving the website with Bun, and Elysia, allowed me to create an incredibly simple and responsive website as well. Not only this, but with Tailwind CSS I had the chance to make plain-old HTML look good with class decorating only. This website allows me to showcase my skills, personal projects, learning experiences, and interests. Perusing this website should show that I am an incredibly driven and curious person software engineer. I get deep fulfillment from pushing my own boundaries, staying ahead of industry shifts, learning new technologies, and making the most of my career as a budding software engineer.",
+      "This website gave me a chance to work with an emerging technology called HTMX, that stands for HTML extensions. It is a library to powerup plain-old HTML with new powers that gives the frontend dev the opportunity of avoiding JavaScript and the endless land of JavaScript dependencies. Serving the website with Bun, and Elysia, allowed me to create an incredibly simple and responsive website as well. Not only this, but with Tailwind CSS I had the chance to make plain-old HTML look good with class decorating only. I also employed DaisyUI for easier component-level styling and for adding dynamic features to better support various screen orientations and sizes. Finally, in lieu of a more difficult and complex deployment experience on the cloud, I chose to deploy the website using Fly.io, a powerful deployment PaaS tool for quickly getting websites and applications on the internet.",
     languages: ["TypeScript"],
-    technologies: ["HTMX", "Tailwind CSS", "Bun"],
+    technologies: ["HTMX", "Tailwind CSS", "DaisyUI", "Bun", "Fly.io"],
     links: ["https://github.com/judahhigh/portfolio"],
     id: "portfolio",
   },
