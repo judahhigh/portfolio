@@ -3,6 +3,8 @@
 
 An HTMX-powered personal portfolio website to showcase personal projects, skills, and interests.
 
+The website is deployed on fly.io at https://jhigh-portfolio.fly.dev/
+
 
 
 
@@ -61,7 +63,8 @@ Regardless, HTMX is still somewhat new and it may prove difficult to imbed web a
 * JSX (https://react.dev/learn/writing-markup-with-jsx)
 * typed-html (https://github.com/nicojs/typed-html)
 
-
+**Deployment:**
+* Fly.io (https://fly.io/)
 
 
 ## Run Locally
@@ -88,4 +91,18 @@ Spin up the website locally
 
 ```bash
   bun run index.tsx
+```
+
+## Run Locally with Docker
+
+After cloning the repo run the following command to build a docker image of the project.
+
+```bash
+  docker build -t portfolio .
+```
+
+After building the image, deploy a container exposing port 3000.
+
+```bash
+  docker run --name portfolio -p 3000:3000 portfolio
 ```
