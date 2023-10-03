@@ -36,7 +36,7 @@ export function NavBar({ items }: { items: TOCItem[] }) {
   }
 
   return (
-    <nav class="sticky top-0 bg-base-200 border-b border-gray-700">
+    <nav class="sticky top-0 bg-base-200 border-b border-gray-700 z-50">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ml-4 ">
         <a
           href="/home"
@@ -57,7 +57,7 @@ export function NavBar({ items }: { items: TOCItem[] }) {
         </a>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 borderrounded-lg bg-base-200 md:flex-row md:space-x-8 md:mt-0 md:border-0">
-            <li>
+          <li>
               <a
                 href="/home"
                 hx-get="/home"
@@ -68,6 +68,19 @@ export function NavBar({ items }: { items: TOCItem[] }) {
                 aria-current="page"
               >
                 Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/resumt"
+                hx-get="/resume"
+                hx-trigger="click"
+                hx-swap="innerHTML"
+                hx-target="#body"
+                class={classLinkText}
+                aria-current="page"
+              >
+                Resume
               </a>
             </li>
             <li>
@@ -91,7 +104,7 @@ export function NavBar({ items }: { items: TOCItem[] }) {
                 hx-target="#body"
                 class={classLinkText}
               >
-                About
+                About Me
               </a>
             </li>
             <li>
@@ -133,6 +146,19 @@ export function NavBar({ items }: { items: TOCItem[] }) {
             </li>
             <li>
               <a
+                href="/resumt"
+                hx-get="/resume"
+                hx-trigger="click"
+                hx-swap="innerHTML"
+                hx-target="#body"
+                class={classLinkText}
+                aria-current="page"
+              >
+                Resume
+              </a>
+            </li>
+            <li>
+              <a
                 href="/projects"
                 hx-get="/projects"
                 hx-trigger="click"
@@ -152,7 +178,7 @@ export function NavBar({ items }: { items: TOCItem[] }) {
                 hx-target="#body"
                 class={classLinkText}
               >
-                About
+                About Me
               </a>
             </li>
             <li>
