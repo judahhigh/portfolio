@@ -13,9 +13,13 @@ function ProjectItem({
   id,
 }: Project) {
   return (
-    <div id={id} class="flex flex-col space-x-3 pt-8 justify-center ">
-      <p class="text-4xl md:text-6xl font-semibold pb-4 text-center">{title}</p>
-      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center">Github</p>
+    <div id={id} class="flex flex-col space-x-3 pt-8 justify-center">
+      <p class="text-4xl md:text-6xl font-semibold pb-4 text-center text-primary-content">
+        {title}
+      </p>
+      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center text-primary-content">
+        Github
+      </p>
       <ul class="grid grid-cols-1 list-disc pt-8 justify-items-center">
         {links.map((link) => (
           <li class="text-lg md:text-2xl">
@@ -25,30 +29,35 @@ function ProjectItem({
           </li>
         ))}
       </ul>
-      <p class="text-3xl md:text-4xl font-bold pb-2 pt-8 text-center">Description</p>
+      <p class="text-3xl md:text-4xl font-bold pb-2 pt-8 text-center text-primary-content">
+        Description
+      </p>
       <p class="text-lg md:text-2xl pb-8 text-justify ">{description}</p>
-      <p class="text-3xl md:text-4xl font-bold pb-2 text-center">Languages</p>
+      <p class="text-3xl md:text-4xl font-bold pb-2 text-center text-primary-content">
+        Languages
+      </p>
       <ul class="grid grid-cols-1 list-disc ps-8 justify-items-center">
         {languages.map((lang) => (
           <li class="text-lg md:text-2xl">{lang}</li>
         ))}
       </ul>
-      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center">Technologies</p>
+      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center text-primary-content">
+        Technologies
+      </p>
       <ul class="grid grid-cols-1 list-disc ps-8 justify-items-center">
         {technologies.map((tech) => (
           <li class="text-lg md:text-2xl">{tech}</li>
         ))}
       </ul>
-      
     </div>
   );
 }
 
 export function ProjectList({ projects }: { projects: Project[] }) {
-  const tocItems: TOCItem[] = []
-  projects.forEach(project => {
-    const item: TOCItem = {id: project.id, title: project.title};
-    tocItems.push(item)
+  const tocItems: TOCItem[] = [];
+  projects.forEach((project) => {
+    const item: TOCItem = { id: project.id, title: project.title };
+    tocItems.push(item);
   });
   return (
     <div class="h-screen">
@@ -56,7 +65,9 @@ export function ProjectList({ projects }: { projects: Project[] }) {
       <div class="grid grid-cols-6 gap-0">
         <TOC items={tocItems} />
         <div class="col-span-6 md:col-span-5 flex flex-col h-full justify-start items-center">
-          <p class="text-6xl md:text-8xl font-extrabold py-8">Projects</p>
+          <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
+            Projects
+          </p>
           <p class="w-full text-lg md:text-2xl py-8 px-8 text-justify">
             This page summarizes information about all of the personal projects
             I have worked on. These projects were driven out of my own curiosity
@@ -65,7 +76,7 @@ export function ProjectList({ projects }: { projects: Project[] }) {
             in an idea. These projects have either allowed me to practice skills
             I've already learned or to use new skills I have never used before.
           </p>
-          <div class="divider px-8"></div> 
+          <div class="divider px-8"></div>
           <div class="w-full flex flex-col gap-8 pb-8 px-8 justify-center divide-y divide-gray-700">
             {projects.map((project) => (
               <ProjectItem {...project} />

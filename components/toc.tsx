@@ -8,7 +8,7 @@ export function TOC({ items }: { items: TOCItem[]}) {
   const classContentsText = "hover:text-secondary";
   return (
     <div class="hidden md:flex col-span-1 overflow-y-auto pl-6 pr-6 justify-center bg-base-300 border-r border-gray-700">
-      <div class="fixed z-20">
+      <div class="fixed z-20 ml-4">
         <p class="text-2xl font-extrabold py-4 pb-2 text-left">Contents</p>
         <ul class="menu">
           {items.map((item) => (

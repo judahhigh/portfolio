@@ -11,7 +11,7 @@ export function NavBar({ items }: { items: TOCItem[] }) {
   let contents_menu = <div></div>;
   if (items.length > 0) {
     contents_menu = (
-      <div class="sm:hidden drawer sticky top-0 bg-base-200 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 border-b border-gray-700">
+      <div class="sm:hidden drawer sticky top-0 bg-base-200 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content ml-4">
           <label for="my-drawer" class="btn btn-ghost p-2 w-10 h-10">
@@ -36,8 +36,8 @@ export function NavBar({ items }: { items: TOCItem[] }) {
   }
 
   return (
-    <nav class="sticky top-0 bg-base-200">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ml-4 border-b border-neutral-700">
+    <nav class="sticky top-0 bg-base-200 border-b border-gray-700">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ml-4 ">
         <a
           href="/home"
           hx-get="/home"

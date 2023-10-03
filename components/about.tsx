@@ -4,9 +4,11 @@ import { NavBar } from "./nav";
 export function About() {
   return (
     <div class="h-screen">
-      <NavBar items={[]}/>
+      <NavBar items={[]} />
       <div class="flex flex-col h-full justify-start items-center">
-        <p class="text-6xl md:text-8xl font-extrabold py-8">About</p>
+        <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
+          About
+        </p>
         <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
           This website was built using HTXM, JSX, and Bun, a fast all-in-one
           JavaScript runtime. I chose to implement this website using HTMX
