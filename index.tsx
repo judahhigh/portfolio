@@ -37,6 +37,9 @@ const app = new Elysia()
   .get("/public/code_button_htmx.png", () =>
     Bun.file("./public/code_button_htmx.png")
   )
+  .get("/public/code_reset_button_htmx.png", () =>
+    Bun.file("./public/code_reset_button_htmx.png")
+  )
   .get("/click-me", () => (
     <button
       id="htmx-example-button"
@@ -55,6 +58,29 @@ const app = new Elysia()
     >
       Click Me
     </button>
+  ))
+  .get("/reveal", () => (
+    <div class="flex flex-col items-center">
+      <p id="reveal" class="text-lg md:text-2xl py-8 px-8 text-justify">
+        Below we now have the HTMX button, which will now replace the button
+        with some new content whenever you click on it. To reset the 'Click Me'
+        button, click on the 'Reset' button. How do you think the 'Reset' button
+        works? How does it differ from the 'Click Me' HTMX button we've
+        described so far?
+        <span class="text-secondary text-bold">
+          The 'Reset' button must somehow replace an HTML element other than
+          itself, this is done through the HTMX 'hx-target' attribute. To
+          restore the 'Click Me' button to it's original value, the 'Reset'
+          button targets it and swaps out the HTML with the original 'Click Me'
+          button HTML. Below is the definition of the 'Reset' button where the
+          target id is the id given to the 'Click Me' button.
+        </span>
+      </p>
+      <img
+        class="rounded-xl p-8 drop-shadow-xl md:w-3/5"
+        src="../public/code_reset_button_htmx.png"
+      ></img>
+    </div>
   ))
   .listen(3000);
 

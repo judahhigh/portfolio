@@ -42,7 +42,7 @@ export function Home({ profile }: { profile: Profile }) {
                 Resume Page
               </div>
               <div class="collapse-content flex flex-col justify-center items-center gap-4">
-                <p class="text-2xl text-justify">
+                <p class="text-xl md:text-2xl text-justify">
                   This page contains up-to-date information on all of the skills
                   I have experience with either through work or from personal
                   endeavors. This page includes work experience, education,
@@ -66,7 +66,7 @@ export function Home({ profile }: { profile: Profile }) {
                 Projects Page
               </div>
               <div class="collapse-content flex flex-col justify-center items-center gap-4">
-                <p class="text-2xl text-justify">
+                <p class="text-xl md:text-2xl text-justify">
                   Personal projects are a great way to learn a new language,
                   technology, or skill. I have stood up several personal
                   projects, including this website, that have helped me become a
@@ -88,10 +88,10 @@ export function Home({ profile }: { profile: Profile }) {
             <div class="collapse collapse-plus bg-base-200">
               <input type="radio" name="my-accordion-1" />
               <div class="collapse-title text-3xl text-center text-primary-content">
-                About Me
+                About Me Page
               </div>
               <div class="collapse-content flex flex-col justify-center items-center gap-4">
-                <p class="text-2xl text-justify">
+                <p class="text-xl md:text-2xl text-justify">
                   Everybodys story is different. What defines us is not just our
                   professional experience, but our interests, our hobbies, our
                   preferences, our stories. This page goes deeper into who I am,
@@ -204,12 +204,21 @@ export function Home({ profile }: { profile: Profile }) {
             class="rounded-xl p-8 drop-shadow-xl md:w-3/5"
             src="../public/code_button_htmx.png"
           ></img>
-          <p class="text-lg md:text-2xl py-8 px-8 text-justify">
+          <p id="reveal" class="text-lg md:text-2xl py-8 px-8 text-justify">
             Below we now have the HTMX button, which will now replace the button
-            with some new content whenever you click on it. To reset the button,
-            click on the 'Reset' button next to the button we're interested in.
-            How do you think the 'Reset' button works? How does it differ from
-            the HTMX button we've described so far?
+            with some new content whenever you click on it. To reset the 'Click
+            Me' button, click on the 'Reset' button. How do you think the
+            'Reset' button works? How does it differ from the 'Click Me' HTMX
+            button we've described so far?
+            <button
+              hx-get="/reveal"
+              hx-trigger="click"
+              hx-swap="outerHTML"
+              hx-target="#reveal"
+              class="btn btn-secondary btn-xs text-md"
+            >
+              Reveal the answer
+            </button>
           </p>
           <div class="flex flex-row flex-wrap justify-center items-center">
             <button
