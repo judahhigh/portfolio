@@ -40,6 +40,7 @@ const app = new Elysia()
   .get("/public/code_reset_button_htmx.png", () =>
     Bun.file("./public/code_reset_button_htmx.png")
   )
+  .get("/public/sherman.jpg", () => Bun.file("./public/sherman.jpg"))
   .get("/click-me", () => (
     <button
       id="htmx-example-button"

@@ -3,6 +3,7 @@ import { Project } from "./types";
 import { NavBar } from "./nav";
 import { TOC } from "./toc";
 import { TOCItem } from "./types";
+import { BottomNav } from "./bottomNav";
 
 function ProjectItem({
   title,
@@ -85,6 +86,7 @@ export function ProjectList({ projects }: { projects: Project[] }) {
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
       </div>
+      <BottomNav />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import * as elements from "typed-html";
 import { NavBar } from "./nav";
 import { Profile, TOCItem } from "./types";
 import { TOC } from "./toc";
+import { BottomNav } from "./bottomNav";
 
 export function Resume({ profile }: { profile: Profile }) {
   const classContentsItem =
@@ -40,9 +41,9 @@ export function Resume({ profile }: { profile: Profile }) {
             technology and industry shifts.
           </p>
           <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
-            This page is an up-to-date accounting of my work experience, education, and
-            skills. Visitors may also download my resume using the `Download Resume` button in the
-            nav bar.
+            This page is an up-to-date accounting of my work experience,
+            education, and skills. Visitors may also download my resume using
+            the `Download Resume` button in the nav bar.
           </p>
           <div class={sectionClass} id="languages">
             <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
@@ -294,7 +295,9 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
         </div>
+        <div class="pb-32"></div>
       </div>
+      <BottomNav />
     </div>
   );
 }

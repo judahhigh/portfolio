@@ -49,7 +49,7 @@ export function NavBar({ items }: { items: TOCItem[] }) {
           <img
             src="../public/profile.jpeg"
             class="h-11 mr-3 rounded-full"
-            alt="Flowbite Logo"
+            alt="profile-picture"
           />
           <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-content">
             Judah High
