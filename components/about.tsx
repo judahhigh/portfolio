@@ -23,26 +23,26 @@ export function About() {
           While I was in graduate school I taught myself Python, Fortran, C, C++
           and Bash so that I could develop scripts and small programs to
           automate and secure several aspects of my Ph.D. research. While I
-          found the science I was researching fascinating, the more I
-          programmed, the more I realized that I had a passion for it. I knew
-          that there would be little chance to obtain proper software
-          engineering experience within the academic STEM space. For this
+          found my researching fascinating, the more I programmed, the more I
+          realized that I had a major passion for it. I discovered that there
+          would be few chances to obtain proper software engineering experience
+          within the academic STEM computational chemistry space. For this
           reason, towards graduation I pursued industry careers in software
           engineering where my scientific background could prove useful.
         </p>
         <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
           I was fortunate enough to land a position working on a team of tens of
           engineers and scientists building out a simulation software product
-          comprising millions of lines of code. This first role of mine in the
-          software engineering space skyrocketed my professional experience to
-          new heights. I learned about DevOps, QA, QC, design patterns, clean
-          code, CI/CD, version control, Agile, etc. Very quickly I had
-          re-defined myself as a professional software engineer with a rigorous
-          background in STEM. Around the office folks casually referred to me as
-          a <span class="italic">chemeloper,</span> which is a portmanteau of
-          the words 'chemistry' and 'developer'. This casual title played at the
-          fact that while I was formally a chemist, I fully fulfilled the role
-          of a developer as well.
+          comprising millions of lines of code. This software engineering role
+          skyrocketed my professional experience to new heights. I learned about
+          DevOps, QA, QC, design patterns, clean code, CI/CD, version control,
+          Agile, etc. Very quickly I had re-defined myself as a professional
+          software engineer with a rigorous background in STEM. Around the
+          office folks casually referred to me as a
+          <span class="italic">chemeloper,</span> which is a portmanteau of the
+          words 'chemistry' and 'developer'. This casual title played at the
+          fact that while I was formally a chemist, I fulfilled the role of a
+          developer as well.
         </p>
         <p class="text-4xl md:text-6xl font-semibold p-8 text-primary-content text-center">
           Life outside of programming
@@ -65,7 +65,7 @@ export function About() {
           energy I put in incrementally develops my strength and conditioning.
           Over the past few years I have been pursuing a career in powerlifting
           to see how far I can push the boundaries of my strength. I recently
-          placed 3rd in my weight class at USAPL sanctioned event, Yokey's
+          placed 3rd in my weight class at a USAPL sanctioned event, Yokey's
           Return. My best lifts were as follows:
         </p>
         <ul class="flex flex-col gap-4 list-disc justify-center items-center">
@@ -111,30 +111,32 @@ export function About() {
           Food
         </p>
         <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
-          food is a critical piece of my life. I constantly try new recipes and
-          attempt to perfect what I know. While I don't quite have the
-          flavor/spice intuition that top chefs possess, I get better every day.
+          food is a critical part of my life. Whether it's meal prepping for
+          powerlifting or not, I constantly try new recipes and attempt to
+          perfect what I know. While I don't quite have the flavor/spice
+          intuition that top chefs possess, I get better every day.
         </p>
         <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
           Music
         </p>
         <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
           Music has and will always be an important aspect of my life. While I
-          have learned to play several instruments in my life, I gravitated to
-          most towards not instruments, but digital music production. I have
-          been making electronic music since I was in elementary school. I find
-          the process of creating a new track from nothing incredibly rewarding
-          and fulfilling. As a producer you not only have to worry about
-          melodies, drums, rhythms, etc., but you also have to be able to
-          concoct sounds that have never been produced before. Electronic music
-          provides a space where your musical creativity can be maximized.
+          have learned to play several instruments in my life, what I gravitated
+          to most was not playing instruments, but rather digital music
+          production. I have been making electronic music since I was in
+          elementary school. I find the process of creating a new track from
+          nothing incredibly rewarding and fulfilling. As a producer you not
+          only have to worry about melodies, drums, rhythms, etc., but you also
+          have to be able to concoct sounds that have never been produced
+          before. Electronic music provides a space where my musical creativity
+          can be maximized.
         </p>
         <p class="text-4xl md:text-6xl font-semibold pb-8 text-primary-content text-center">
           Takeaway
         </p>
         <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
           While software engineering is a primary passion and interest of mine,
-          it by no means is the only thing defining who I am. I powerlift, hike,
+          it is by no means the only thing defining who I am. I powerlift, hike,
           dive, travel, cook, eat, make music, read. I am not just a programmer,
           I am so much more. I hope that my life experience as a whole has made
           me a more well rounded and wise individual. At the core of everything

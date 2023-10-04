@@ -178,11 +178,11 @@ export function Home({ profile }: { profile: Profile }) {
             src="../public/code_button.png"
           ></img>
           <p class="text-lg md:text-2xl py-8 px-8 text-justify">
-            Below is the button as defined in the code snippet above. Currently,
-            you can click on it and nothing will happen. What we will use HTMX
-            for is to modify this button so that when the user clicks it, it
-            will be replaced by new HTML. To do this, we need to attach several
-            attributes to the button HTML.
+            Below is the interactive button as defined in the code snippet
+            above. Currently, you can click on it and nothing will happen. What
+            we will use HTMX for is to modify this button so that when the user
+            clicks it, it will be replaced with new HTML. To do this, we need to
+            attach several attributes to the button HTML.
           </p>
           <button class="btn btn-primary m-8 btn-large btn-wide text-xl">
             Click Me
@@ -205,11 +205,11 @@ export function Home({ profile }: { profile: Profile }) {
             src="../public/code_button_htmx.png"
           ></img>
           <p id="reveal" class="text-lg md:text-2xl py-8 px-8 text-justify">
-            Below we now have the HTMX button, which will now replace the button
-            with some new content whenever you click on it. To reset the 'Click
-            Me' button, click on the 'Reset' button. How do you think the
-            'Reset' button works? How does it differ from the 'Click Me' HTMX
-            button we've described so far?
+            Below is the HTMX button with HTMX attributes. This button will now
+            replace itself with new content whenever it is clicked on. To reset
+            the 'Click Me' button state, click on the 'Reset' button. How do you
+            think the 'Reset' button works? How does it differ from the 'Click
+            Me' HTMX button shown?
             <button
               hx-get="/reveal"
               hx-trigger="click"
