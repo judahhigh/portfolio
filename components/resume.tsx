@@ -294,8 +294,8 @@ export function Resume({ profile }: { profile: Profile }) {
               </li>
             </ul>
           </div>
+          <div class="pb-32"></div>
         </div>
-        <div class="pb-32"></div>
       </div>
       <BottomNav />
     </div>
