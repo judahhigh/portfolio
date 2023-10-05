@@ -36,12 +36,12 @@ export function Home({ profile }: { profile: Profile }) {
             Table of Contents
           </p>
           <div class="w-full px-16">
-            <div class="collapse collapse-plus bg-base-200">
-              <input type="radio" name="my-accordion-1" checked="checked" />
-              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content">
+            <div tabindex="0" class="collapse collapse-plus bg-base-200 mb-4">
+              <input type="checkbox" name="my-accordion-1" class="peer" />
+              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content peer-checked:bg-gray-800">
                 Resume Page
               </div>
-              <div class="collapse-content flex flex-col justify-center items-center gap-4">
+              <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
                 <p class="text-lg md:text-2xl text-justify">
                   This page contains up-to-date information on all of the skills
                   I have experience with either through work or from personal
@@ -60,12 +60,12 @@ export function Home({ profile }: { profile: Profile }) {
                 </button>
               </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200">
-              <input type="radio" name="my-accordion-1" />
-              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content">
+            <div class="collapse collapse-plus bg-base-200 mb-4">
+              <input type="checkbox" name="my-accordion-1" class="peer" />
+              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content peer-checked:bg-gray-800">
                 Projects Page
               </div>
-              <div class="collapse-content flex flex-col justify-center items-center gap-4">
+              <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
                 <p class="text-lg md:text-2xl text-justify">
                   Personal projects are a great way to learn a new language,
                   technology, or skill. I have stood up several personal
@@ -85,12 +85,12 @@ export function Home({ profile }: { profile: Profile }) {
                 </button>
               </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200">
-              <input type="radio" name="my-accordion-1" />
-              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content">
+            <div class="collapse collapse-plus bg-base-200 mb-4">
+              <input type="checkbox" name="my-accordion-1" class="peer" />
+              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content peer-checked:bg-gray-800">
                 About Me Page
               </div>
-              <div class="collapse-content flex flex-col justify-center items-center gap-4">
+              <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
                 <p class="text-lg md:text-2xl text-justify">
                   Everybodys story is different. What defines us is not just our
                   professional experience, but our interests, our hobbies, our

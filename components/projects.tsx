@@ -24,7 +24,7 @@ function ProjectItem({
       <ul class="grid grid-cols-1 list-disc pt-8 justify-items-center">
         {links.map((link) => (
           <li class="text-lg md:text-2xl">
-            <a class="text-secondary hover:text-secondary-focus" href={link}>
+            <a class="text-secondary hover:text-secondary-focus" href={link} target="_blank">
               {link}
             </a>
           </li>
@@ -85,6 +85,7 @@ export function ProjectList({ projects }: { projects: Project[] }) {
           </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+        <div class="pb-32"></div>
       </div>
       <BottomNav />
     </div>

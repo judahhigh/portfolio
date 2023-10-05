@@ -3,6 +3,7 @@ import { NavBar } from "./nav";
 import { Profile, TOCItem } from "./types";
 import { TOC } from "./toc";
 import { BottomNav } from "./bottomNav";
+import { WorkExperience } from "./work";
 
 export function Resume({ profile }: { profile: Profile }) {
   const classContentsItem =
@@ -13,6 +14,8 @@ export function Resume({ profile }: { profile: Profile }) {
   const classListText = "text-lg md:text-2xl ";
   const items: TOCItem[] = [
     { id: "introduction", title: "Introduction" },
+    { id: "education", title: "Education" },
+    { id: "work", title: "Work Experience" },
     { id: "languages", title: "Languages" },
     { id: "webframeworks", title: "Web Frameworks" },
     { id: "runtimes", title: "Runtimes, Servers, Bundlers" },
@@ -23,7 +26,6 @@ export function Resume({ profile }: { profile: Profile }) {
     { id: "tools", title: "Tools" },
     { id: "cloud", title: "Cloud Skills" },
     { id: "other", title: "Other" },
-    { id: "education", title: "Education" },
     { id: "publications", title: "Publications" },
   ];
   return (
@@ -45,6 +47,37 @@ export function Resume({ profile }: { profile: Profile }) {
             education, and skills. Visitors may also download my resume using
             the `Download Resume` button in the nav bar.
           </p>
+
+          <div class="divider px-8"></div>
+
+          <div class={sectionClass} id="education">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+              Education
+            </p>
+            <ul class="flex flex-col list-none justify-items-center items-center gap-2">
+              <li class="text-lg md:text-2xl link link-secondary text-center">
+                <a
+                  href="https://repository.lib.ncsu.edu/handle/1840.20/34444"
+                  target="_blank"
+                >
+                  Ph.D. Computational Quantum Chemistry - North Carolina State
+                  University
+                </a>
+              </li>
+              <li class="text-lg md:text-2xl text-center text-primary-content">
+                B.S. ACS Certified Chemistry - Appalachian State University
+              </li>
+            </ul>
+          </div>
+
+          <div class="divider px-8"></div>
+
+          <div id="work">
+            <WorkExperience />
+          </div>
+
+          <div class="divider px-8"></div>
+
           <div class={sectionClass} id="languages">
             <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
               Languages
@@ -255,20 +288,6 @@ export function Resume({ profile }: { profile: Profile }) {
 
           <div class="divider px-8 pt-6"></div>
 
-          <div class={sectionClass} id="education">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
-              Education
-            </p>
-            <ul class="flex flex-col list-none justify-items-center items-center gap-2">
-              <li class="text-lg md:text-2xl text-center text-primary-content">
-                Ph.D. Computational Quantum Chemistry - North Carolina State
-                University
-              </li>
-              <li class="text-lg md:text-2xl text-center text-primary-content">
-                B.S. ACS Certified Chemistry - Appalachian State University
-              </li>
-            </ul>
-          </div>
           <div class={sectionClass} id="publications">
             <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
               Publications
@@ -278,6 +297,7 @@ export function Resume({ profile }: { profile: Profile }) {
                 <a
                   class="text-secondary hover:text-secondary-focus"
                   href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.6b05739"
+                  target="_blank"
                 >
                   High, J. S.; Rego L. G. C.; Jakubikova, E. J. Phys. Chem. A,
                   <strong>2016</strong>, 120(41), 8075-8084.
@@ -287,6 +307,7 @@ export function Resume({ profile }: { profile: Profile }) {
                 <a
                   class="text-secondary hover:text-secondary-focus"
                   href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05600"
+                  target="_blank"
                 >
                   High, J. S.; Virgil, K. A.; Jakubikova, E. J. Phys. Chem. A,
                   <strong>2015</strong>, 119(38), 9879-9888.

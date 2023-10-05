@@ -21,7 +21,7 @@ export const profile_db: Profile = {
     "Biscuit auth",
     "CI/CD",
     "Clean Code",
-    "Cloud-native Software Design",
+    "Cloud-native Software",
     "Data Engineering",
     "Design Patterns",
     "DevOps",
