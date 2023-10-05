@@ -37,6 +37,9 @@ export function Resume({ profile }: { profile: Profile }) {
           <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
             Resume
           </p>
+          <p id="introduction" class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            Introduction
+          </p>
           <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
             At my core I am an industrious, driven, and curious software
             engineer that takes pride in being able to quickly adapt to
