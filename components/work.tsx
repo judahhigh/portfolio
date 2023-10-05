@@ -1,14 +1,14 @@
 import * as elements from "typed-html";
 
 export function WorkExperience() {
-  const workSectionClass = "w-full flex flex-col py-10 px-8";
+  const workSectionClass = "w-full flex flex-col py-10 px-8 items-center";
 
   return (
     <div class={workSectionClass}>
       <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
         Work Experience
       </p>
-      <p class="w-full text-lg md:text-2xl pb-8 text-justify">
+      <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 text-justify">
         This section highlights some of the impactful projects I have worked on
         throughout my career. I have worked on projects spanning from simple
         tools and services all the way up to full stack cloud-native web
@@ -18,7 +18,7 @@ export function WorkExperience() {
       <p class="text-2xl md:text-3xl font-normal text-center text-secondary rounded-xl pb-4">
         Principle Software Engineer - Agenus, Inc
       </p>
-      <div class="collapse collapse-plus bg-base-200 md:w-full mb-4">
+      <div class="collapse collapse-plus bg-base-200 lg:w-9/12 xl:w-9/12 mb-4">
         <input type="checkbox" name="my-accordion-1" class="peer" />
         <div class="collapse-title text-xl md:text-2xl font-normal text-center text-primary-content peer-checked:bg-gray-800">
           ETL Clinical Trial Data Pipelines
@@ -128,7 +128,7 @@ export function WorkExperience() {
           </div>
         </div>
       </div>
-      <div class="collapse collapse-plus bg-base-200 md:w-full mb-4">
+      <div class="collapse collapse-plus bg-base-200 lg:w-9/12 xl:w-9/12 mb-4">
         <input type="checkbox" name="my-accordion-1" class="peer" />
         <div class="collapse-title text-xl md:text-2xl font-normal text-center text-primary-content peer-checked:bg-gray-800">
           Cloud-native Clinical Trial Data Web Application
@@ -243,7 +243,7 @@ export function WorkExperience() {
         </div>
       </div>
 
-      <div class="collapse collapse-plus bg-base-200 md:w-full mb-4">
+      <div class="collapse collapse-plus bg-base-200 lg:w-9/12 xl:w-9/12 mb-4">
         <input type="checkbox" name="my-accordion-1" class="peer" />
         <div class="collapse-title text-xl md:text-2xl font-normal text-center text-primary-content peer-checked:bg-gray-800">
           Cloud-native Data Pipeline Orchestration Service
@@ -357,7 +357,7 @@ export function WorkExperience() {
       <p class="text-2xl md:text-3xl font-normal text-center text-secondary rounded-xl pb-4">
         Staff Engineer II - Applied Research Associates
       </p>
-      <div class="collapse collapse-plus bg-base-200 md:w-full mb-4">
+      <div class="collapse collapse-plus bg-base-200 lg:w-9/12 xl:w-9/12 mb-4">
         <input type="checkbox" name="my-accordion-1" class="peer" />
         <div class="collapse-title text-xl md:text-2xl font-normal text-center text-primary-content peer-checked:bg-gray-800">
           Event Driven Calculation Engine
@@ -429,7 +429,7 @@ export function WorkExperience() {
           </div>
         </div>
       </div>
-      <div class="collapse collapse-plus bg-base-200 md:w-full mb-4">
+      <div class="collapse collapse-plus bg-base-200 lg:w-9/12 xl:w-9/12 mb-4">
         <input type="checkbox" name="my-accordion-1" class="peer" />
         <div class="collapse-title text-xl md:text-2xl font-normal text-center text-primary-content peer-checked:bg-gray-800">
           Bayesian Statistics Physics-based Prediction Model
@@ -442,9 +442,9 @@ export function WorkExperience() {
             Created a new feature relying on bayesian statistics to predict the
             latent space of unobserved variables to assist in the overall
             predictive capability of a well-established physics-based simulation
-            product comprising millions of lines code. At the time, this product was
-            developed and maintained by a team of up to 50 software engineers
-            and developers.
+            product comprising millions of lines code. At the time, this product
+            was developed and maintained by a team of up to 50 software
+            engineers and developers.
           </p>
           <p class="text-xl text-center font-bold text-primary-content">
             Contributions
@@ -509,7 +509,7 @@ export function WorkExperience() {
           </div>
         </div>
       </div>
-      <div class="collapse collapse-plus bg-base-200 md:w-full mb-4">
+      <div class="collapse collapse-plus bg-base-200 lg:w-9/12 xl:w-9/12 mb-4">
         <input type="checkbox" name="my-accordion-1" class="peer" />
         <div class="collapse-title text-xl md:text-2xl font-normal text-center text-primary-content peer-checked:bg-gray-800">
           System Characterization Platform
@@ -585,7 +585,7 @@ export function WorkExperience() {
           </div>
         </div>
       </div>
-      <div class="collapse collapse-plus bg-base-200 md:w-full mb-4">
+      <div class="collapse collapse-plus bg-base-200 lg:w-9/12 xl:w-9/12 mb-4">
         <input type="checkbox" name="my-accordion-1" class="peer" />
         <div class="collapse-title text-xl md:text-2xl font-normal text-center text-primary-content peer-checked:bg-gray-800">
           Physics-based Simulation Product Interface Overhaul
@@ -616,8 +616,8 @@ export function WorkExperience() {
               of the chosen application development framework.
             </li>
             <li class="text-lg">
-              Integrated all re-designed models, modules, and tools together with the
-              new application development framework.
+              Integrated all re-designed models, modules, and tools together
+              with the new application development framework.
             </li>
             <li class="text-lg">
               Upon integration, thoroughly tested the modernized product against

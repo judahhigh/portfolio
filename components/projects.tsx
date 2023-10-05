@@ -14,7 +14,7 @@ function ProjectItem({
   id,
 }: Project) {
   return (
-    <div id={id} class="flex flex-col space-x-3 pt-8 justify-center">
+    <div id={id} class="flex flex-col space-x-3 pt-8 justify-center items-center">
       <p class="text-4xl md:text-6xl font-semibold pb-4 text-center text-primary-content">
         {title}
       </p>
@@ -37,7 +37,7 @@ function ProjectItem({
       <p class="text-3xl md:text-4xl font-bold pb-2 pt-8 text-center text-primary-content">
         Description
       </p>
-      <p class="text-lg md:text-2xl pb-8 text-justify ">{description}</p>
+      <p class="text-lg lg:w-9/12 xl:w-6/12 md:text-2xl pb-8 text-justify">{description}</p>
       <p class="text-3xl md:text-4xl font-bold pb-2 text-center text-primary-content">
         Languages
       </p>
@@ -73,7 +73,7 @@ export function ProjectList({ projects }: { projects: Project[] }) {
           <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
             Projects
           </p>
-          <p class="w-full text-lg md:text-2xl py-8 px-8 text-justify">
+          <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl py-8 px-8 text-justify">
             This page summarizes information about all of the personal projects
             I have worked on. These projects were driven out of my own curiosity
             for exploring various languages and technologies that interest me.

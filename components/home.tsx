@@ -13,7 +13,7 @@ export function Home({ profile }: { profile: Profile }) {
           <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
             Home
           </p>
-          <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
             Welcome to my portfolio. I started my career as a computational
             chemist and then re-invented myself as a software engineer. Over the
             years I have learned and adapted constantly. With effectively no
@@ -21,13 +21,13 @@ export function Home({ profile }: { profile: Profile }) {
             architectures, and practices, the list of practical capabilities I
             possess grows larger every day.
           </p>
-          <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
             This website should provide a clear picture of who I am and what I
             am capable of in the software engineering space. Take a look at my
             resume or my personal projects to get a better handle on my
             experience and skillset.
           </p>
-          <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
             At my core I am an industrious, driven, and curious software
             engineer that takes pride in being able to quickly adapt to
             technology and industry shifts.
@@ -35,14 +35,14 @@ export function Home({ profile }: { profile: Profile }) {
           <p class="text-4xl md:text-6xl font-extrabold py-8 text-primary-content">
             Table of Contents
           </p>
-          <div class="w-full px-16">
+          <div class="w-full px-16 lg:w-9/12 xl:w-6/12">
             <div tabindex="0" class="collapse collapse-plus bg-base-200 mb-4">
               <input type="checkbox" name="my-accordion-1" class="peer" />
               <div class="collapse-title text-xl md:text-3xl text-center text-primary-content peer-checked:bg-gray-800">
                 Resume Page
               </div>
               <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
-                <p class="text-lg md:text-2xl text-justify">
+                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify">
                   This page contains up-to-date information on all of the skills
                   I have experience with either through work or from personal
                   endeavors. This page includes work experience, education,
@@ -66,7 +66,7 @@ export function Home({ profile }: { profile: Profile }) {
                 Projects Page
               </div>
               <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
-                <p class="text-lg md:text-2xl text-justify">
+                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify">
                   Personal projects are a great way to learn a new language,
                   technology, or skill. I have stood up several personal
                   projects, including this website, that have helped me become a
@@ -91,7 +91,7 @@ export function Home({ profile }: { profile: Profile }) {
                 About Me Page
               </div>
               <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
-                <p class="text-lg md:text-2xl text-justify">
+                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify">
                   Everybodys story is different. What defines us is not just our
                   professional experience, but our interests, our hobbies, our
                   preferences, our stories. This page goes deeper into who I am,
@@ -117,7 +117,7 @@ export function Home({ profile }: { profile: Profile }) {
           <p class="text-2xl md:text-3xl font-extrabold pb-8 text-primary-content">
             Motivation
           </p>
-          <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             This website, while doubling as a proffessional portfolio for my
             career, was also a wonderful learning experience. HTMX is a
             promising library to do more with HTML instead of using something
@@ -134,7 +134,7 @@ export function Home({ profile }: { profile: Profile }) {
           <p class="text-2xl md:text-3xl font-extrabold pb-8 text-primary-content">
             Tech Stack
           </p>
-          <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             This website was built using HTXM, JSX, and Bun, a fast all-in-one
             JavaScript runtime. I chose to implement this website using HTMX
             firstly becuase of its growing popularity, and secondly because it
@@ -146,12 +146,12 @@ export function Home({ profile }: { profile: Profile }) {
             worrying about a virtual DOM and all the idiosyncrasies that come
             with that game.
           </p>
-          <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             Futhermore, the HTMX developer experience can be greatly boosted
             with JSX to support the implementation of functional HTMX
             components. That's right, not React components, HTMX components.
           </p>
-          <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             Integration with Bun creates an efficient stack for a great frontend
             development and deployment experience. I have also chosen to use
             Tailwind CSS for HTML styling. Tailwind is an extremely powerful and
@@ -162,7 +162,7 @@ export function Home({ profile }: { profile: Profile }) {
           <p class="text-2xl md:text-3xl font-extrabold pb-8 text-primary-content">
             A Brief HTMX Tutorial
           </p>
-          <p class="text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             HTXM stands for HTML extensions. What HTMX allows a dev to do is
             effectively call HTTP requests with any supported method (GET, POST,
             DELETE, PATCH, PUT) on any HTML element triggered by all modern
@@ -177,7 +177,7 @@ export function Home({ profile }: { profile: Profile }) {
             class="rounded-xl p-8 drop-shadow-xl md:w-3/5"
             src="../public/code_button.png"
           ></img>
-          <p class="text-lg md:text-2xl py-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl py-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             Below is the interactive button as defined in the code snippet
             above. Currently, you can click on it and nothing will happen. What
             we will use HTMX for is to modify this button so that when the user
@@ -188,7 +188,7 @@ export function Home({ profile }: { profile: Profile }) {
             Click Me
           </button>
 
-          <p class="text-lg md:text-2xl py-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl py-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             Below is the button from above updated with some HTMX attributes.
             Let's go through each one and explain them. First is the 'hx-get'
             attribute which provides the endpoint to call a GET request against
@@ -204,7 +204,7 @@ export function Home({ profile }: { profile: Profile }) {
             class="rounded-xl p-8 drop-shadow-xl md:w-3/5"
             src="../public/code_button_htmx.png"
           ></img>
-          <p id="reveal" class="text-lg md:text-2xl py-8 px-8 text-justify">
+          <p id="reveal" class="text-lg md:text-2xl py-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             Below is the HTMX button with HTMX attributes. This button will now
             replace itself with new content whenever it is clicked on. To reset
             the 'Click Me' button state, click on the 'Reset' button. How do you
@@ -240,7 +240,7 @@ export function Home({ profile }: { profile: Profile }) {
               Reset
             </button>
           </div>
-          <p class="text-lg md:text-2xl py-8 px-8 text-justify">
+          <p class="text-lg md:text-2xl py-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
             Hopefully this section provides a small, but well understood glimpse
             into how HTMX provides such an interesting and easy means to
             dynamically update HTML. HTMX extends HTML so that dynamic behavior

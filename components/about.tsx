@@ -19,7 +19,7 @@ export function About() {
         <p class="w-full text-4xl md:text-6xl font-semibold pb-8 text-primary-content text-center">
           How I got into software engineering
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           While I was in graduate school I taught myself Python, Fortran, C, C++
           and Bash so that I could develop scripts and small programs to
           automate and secure several aspects of my Ph.D. research. While I
@@ -30,7 +30,7 @@ export function About() {
           reason, towards graduation I pursued industry careers in software
           engineering where my scientific background could prove useful.
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           I was fortunate enough to land a position working on a team of tens of
           engineers and scientists building out a simulation software product
           comprising millions of lines of code. This software engineering role
@@ -50,7 +50,7 @@ export function About() {
         <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
           Nature
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           While I have a passion for programming, I have other interests as
           well. Living close to the Rockies, I enjoy getting into the
           backcountry to hike, camp, backpack, and to enjoy nature. I've hiked
@@ -60,7 +60,7 @@ export function About() {
         <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
           Powerlifting
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           My entire life I have been lifting weights. I love how the time and
           energy I put in incrementally develops my strength and conditioning.
           Over the past few years I have been pursuing a career in powerlifting
@@ -100,7 +100,7 @@ export function About() {
         <p class="text-3xl md:text-4xl font-semibold py-8 p-8 text-primary-content text-center">
           Travel
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           I like to travel and try new things whenever possible. Whether it's
           seeing Denali for the first time, scuba diving with off the coast of
           Central America, or visiting national parks all around the country, I
@@ -110,7 +110,7 @@ export function About() {
         <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
           Food
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           food is a critical part of my life. Whether it's meal prepping for
           powerlifting or not, I constantly try new recipes and attempt to
           perfect what I know. While I don't quite have the flavor/spice
@@ -119,7 +119,7 @@ export function About() {
         <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
           Music
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           Music has and will always be an important aspect of my life. While I
           have learned to play several instruments in my life, what I gravitated
           to most was not playing instruments, but rather digital music
@@ -134,7 +134,7 @@ export function About() {
         <p class="text-4xl md:text-6xl font-semibold pb-8 text-primary-content text-center">
           Takeaway
         </p>
-        <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify xl:text-white">
+        <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
           While software engineering is a primary passion and interest of mine,
           it is by no means the only thing defining who I am. I powerlift, hike,
           dive, travel, cook, eat, make music, read. I am not just a programmer,

@@ -62,7 +62,7 @@ const app = new Elysia()
   ))
   .get("/reveal", () => (
     <div class="flex flex-col items-center">
-      <p id="reveal" class="text-lg md:text-2xl py-8 px-8 text-justify">
+      <p id="reveal" class="text-lg md:text-2xl py-8 px-8 text-justify md:w-6/12">
         Below is the HTMX button with HTMX attributes. This button will now
         replace itself with new content whenever it is clicked on. To reset the
         'Click Me' button state, click on the 'Reset' button. How do you think

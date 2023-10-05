@@ -9,8 +9,8 @@ export function Resume({ profile }: { profile: Profile }) {
   const classContentsItem =
     "text-lg border-l pl-3 -ml-px hover:border-secondary border-content";
   const classContentsText = "hover:text-secondary";
-  const sectionClass = "w-full flex flex-col py-10 px-16";
-  const cloudSectionClass = "w-full flex flex-col py-6 px-16";
+  const sectionClass = "w-full lg:w-11/12 xl:w-9/12 flex flex-col py-10 px-16";
+  const cloudSectionClass = "w-full lg:w-11/12 xl:w-9/12 flex flex-col py-6 px-16";
   const classListText = "text-lg md:text-2xl ";
   const items: TOCItem[] = [
     { id: "introduction", title: "Introduction" },
@@ -40,12 +40,12 @@ export function Resume({ profile }: { profile: Profile }) {
           <p id="introduction" class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
             Introduction
           </p>
-          <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
             At my core I am an industrious, driven, and curious software
             engineer that takes pride in being able to quickly adapt to
             technology and industry shifts.
           </p>
-          <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
             This page is an up-to-date accounting of my work experience,
             education, and skills. Visitors may also download my resume using
             the `Download Resume` button in the nav bar.
@@ -178,7 +178,7 @@ export function Resume({ profile }: { profile: Profile }) {
           >
             Cloud Skills
           </p>
-          <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
+          <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
             The following sections highlight cloud-based software engineering
             products that I have experience with building ETL/ELT data
             pipelines, and cloud-native web applications. Infrastructure was
@@ -239,7 +239,7 @@ export function Resume({ profile }: { profile: Profile }) {
             <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
               Monitoring and Logging
             </p>
-            <ul class="grid lg:grid-cols-2 md:grid-cols-1 list-disc justify-items-center gap-2">
+            <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
               {profile.cloud.logging.map((service) => (
                 <li class={classListText}>{service}</li>
               ))}
@@ -249,7 +249,7 @@ export function Resume({ profile }: { profile: Profile }) {
             <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
               Authentication and Authorization
             </p>
-            <ul class="grid lg:grid-cols-2 md:grid-cols-1 list-disc justify-items-center gap-2">
+            <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
               {profile.cloud.auth.map((service) => (
                 <li class={classListText}>{service}</li>
               ))}
@@ -259,7 +259,7 @@ export function Resume({ profile }: { profile: Profile }) {
             <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
               Data Analysis and Data Insights
             </p>
-            <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
+            <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
               {profile.cloud.dataops.map((service) => (
                 <li class={classListText}>{service}</li>
               ))}
@@ -269,7 +269,7 @@ export function Resume({ profile }: { profile: Profile }) {
             <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
               Messaging and Event Processing
             </p>
-            <ul class="grid lg:grid-cols-2 md:grid-cols-1 list-disc justify-items-center gap-2">
+            <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
               {profile.cloud.events.map((service) => (
                 <li class={classListText}>{service}</li>
               ))}
