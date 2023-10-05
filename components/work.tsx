@@ -32,7 +32,7 @@ export function WorkExperience() {
             clinical trial data sourced from a backend server into a data
             transformation service and then though a loading service. The
             loading service pushed transformed data into cloud database systems
-            to promote high-availability of critical clinical trial data to
+            to promote high-availability of critical clinical trial data for
             scientists and engineers who needed to explore and analyze this
             data.
           </p>
@@ -53,8 +53,8 @@ export function WorkExperience() {
               and serve it on a serverless analytics service.
             </li>
             <li class="text-lg">
-              Containerized the extraction, transform services and deployed as
-              serverless compute services on the cloud.
+              Containerized the extraction and transform services which were
+              deployed as serverless compute services on the cloud.
             </li>
             <li class="text-lg">
               Implemented a step-wise processing service to automate the ETL
@@ -138,16 +138,16 @@ export function WorkExperience() {
             Description
           </p>
           <p class="text-lg text-justify px-8">
-            The web application developed provided authenticated and authorized
-            internal scientists, engineers, and clinicians an interface to
-            analyze, explore, and export up-to-date clinical trial data. The app
-            was gated through an Oauth2 workflow and data access was denied or
+            This web application provided authenticated and authorized internal
+            scientists, engineers, and clinicians an interface to analyze,
+            explore, and export up-to-date clinical trial data. The app was
+            gated through an Oauth2 workflow and data access was denied or
             granted based on user claims. The clinical trial data made available
             through the application was provided by in-house developed data
             pipelines that performed ETL processing functions to transform and
-            load clinical trial into a form within cloud storage to be made
-            accessible by a backend service. The backend service was a highly
-            available REST API that the frontend would make requests against to
+            load clinical trial data into a form on cloud storage ingestible by
+            a backend service. The backend service was a highly available
+            serverless REST API that the frontend would make requests against to
             retrieve information.
           </p>
           <p class="text-xl text-center font-bold text-primary-content">
@@ -255,14 +255,14 @@ export function WorkExperience() {
           <p class="text-lg text-justify px-8">
             This cloud-native orchestration service was responsible for
             monitoring and triggering all ETL/ELT data pipelines within the
-            organization. Built from the cloud up using serverless technologies
-            including highly available serverless database services, this
-            orchestration service automated all data pipelines stemming from
-            data source updates by clinical trial operations groups. This
-            orchestration service triggered raw clinical trial data extractions,
-            downstream loading and transformation services, as well as web
-            application service updates based on available clinical trial data
-            updates.
+            organization. The service was entirely built using cloud-based
+            serverless technologies including highly available serverless
+            database services. The function of the orchestration service was to
+            automate all data pipelines stemming from data source updates by
+            clinical trial operations groups. This orchestration service
+            triggered raw clinical trial data extractions, downstream loading
+            and transformation services, as well as web application service
+            updates based on available clinical trial data updates.
           </p>
           <p class="text-xl text-center font-bold text-primary-content">
             Contributions
@@ -279,7 +279,7 @@ export function WorkExperience() {
             </li>
             <li class="text-lg">
               Implemented a REST API backend service hosted on a serverless API
-              gateway service that the orchestration service leveraged.
+              gateway that the orchestration service leveraged.
             </li>
             <li class="text-lg">
               Provisioned and configured a cloud-based serverless NoSQL database
@@ -368,7 +368,7 @@ export function WorkExperience() {
           </p>
           <p class="text-lg text-justify px-8">
             Created an event driven calculation engine to orchestrate
-            calculation services for a physics-based simulation engine. This
+            calculation services for a physics-based simulation product. This
             engine brokered messages to and from various services to create a
             calculation flow through various physics models to effectuate
             predictions within the problem domain.
@@ -442,8 +442,9 @@ export function WorkExperience() {
             Created a new feature relying on bayesian statistics to predict the
             latent space of unobserved variables to assist in the overall
             predictive capability of a well-established physics-based simulation
-            product comprising millions of lines developed and maintained by a
-            team of up to 50 software engineers and developers at the time.
+            product comprising millions of lines code. At the time, this product was
+            developed and maintained by a team of up to 50 software engineers
+            and developers.
           </p>
           <p class="text-xl text-center font-bold text-primary-content">
             Contributions
@@ -452,7 +453,7 @@ export function WorkExperience() {
             <li class="text-lg">
               Implemented ETL services to process raw data into a form
               digestible by the bayesian model training service. As new data
-              became available, integrated this data into existing datasets
+              became available it was integrated into existing datasets.
             </li>
             <li class="text-lg">
               Created a predictive Bayesian-based model trained on raw data
@@ -522,7 +523,7 @@ export function WorkExperience() {
             standard shared by various relevant organization. The goal was to
             create a standard database and system information source to
             integrate into various physics-based simulation products that relied
-            heavily on this system characterization data. Prior to this tool
+            heavily on this system characterization data. Prior to this tool,
             organizations used home grown standards and information. This
             product created a unified repository and source for system
             characterizations.
@@ -607,15 +608,15 @@ export function WorkExperience() {
           <ul class="list-disc px-8">
             <li class="text-lg">
               Lead a team tasked with identifying and selecting a candidate for
-              an desktop application development framework to migrate the
+              a desktop application development framework to migrate the
               existing product to.
             </li>
             <li class="text-lg">
-              Re-designed core models, modules, and tools within the framework
+              Re-designed core models, modules, and tools within the constraints
               of the chosen application development framework.
             </li>
             <li class="text-lg">
-              Integrated all re-designed models, modules, and tools within the
+              Integrated all re-designed models, modules, and tools together with the
               new application development framework.
             </li>
             <li class="text-lg">

@@ -16,10 +16,10 @@ export function Home({ profile }: { profile: Profile }) {
           <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
             Welcome to my portfolio. I started my career as a computational
             chemist and then re-invented myself as a software engineer. Over the
-            years I have learned a large number of languages and technologies.
-            With effectively no limit to my internal drive to learn new
-            languages, technologies, architectures, and practices, the list of
-            practical capabilities I possess grows larger every day.
+            years I have learned and adapted constantly. With effectively no
+            limit to my internal drive to learn new languages, technologies,
+            architectures, and practices, the list of practical capabilities I
+            possess grows larger every day.
           </p>
           <p class="w-full text-lg md:text-2xl pb-8 px-8 text-justify">
             This website should provide a clear picture of who I am and what I
