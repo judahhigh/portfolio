@@ -93,7 +93,7 @@ export function Resume({ profile }: { profile: Profile }) {
           </div>
           <div class={sectionClass} id="webframeworks">
             <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
-              Web Framworks
+              Web Frameworks
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
               {profile.webFrameworks.map((framework) => (

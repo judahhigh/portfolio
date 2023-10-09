@@ -92,7 +92,7 @@ export function Home({ profile }: { profile: Profile }) {
               </div>
               <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
                 <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify">
-                  Everybodys story is different. What defines us is not just our
+                  Every person's story is different. What defines us is not just our
                   professional experience, but our interests, our hobbies, our
                   preferences, our stories. This page goes deeper into who I am,
                   what drives me, where I came from, what I do outside of
