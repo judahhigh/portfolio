@@ -3,7 +3,7 @@ import { TOCItem } from "./types";
 
 export function NavBar({ items }: { items: TOCItem[] }) {
   const classLinkText =
-    "btn btn-primary-content rounded hover:bg-gray-600 text-primary-content hover:text-primary-content text-lg";
+    "btn dark:bg-base-200 bg-gray-800 border-none rounded hover:bg-gray-600 text-white hover:text-primary-content text-lg";
   const classContentsItem =
     "text-lg border-l pl-3 -ml-px hover:border-secondary border-content";
   const classContentsText = "hover:text-secondary";
@@ -11,10 +11,10 @@ export function NavBar({ items }: { items: TOCItem[] }) {
   let contents_menu = <div></div>;
   if (items.length > 0) {
     contents_menu = (
-      <div class="md:hidden drawer sticky top-0 bg-base-200 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+      <div class="md:hidden drawer sticky top-0 dark:bg-base-200 bg-gray-800 max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
         <input id="my-drawer" type="checkbox" class="drawer-toggle" />
         <div class="drawer-content ml-4">
-          <label for="my-drawer" class="btn btn-ghost p-2 w-10 h-10">
+          <label for="my-drawer" class="btn dark:bg-base-200 bg-gray-950 border-none p-2 w-12 h-10">
             <img src="../public/hamburger.png"></img>
           </label>
         </div>
@@ -36,7 +36,7 @@ export function NavBar({ items }: { items: TOCItem[] }) {
   }
 
   return (
-    <nav class="sticky top-0 bg-base-200 border-b border-gray-700 z-50">
+    <nav class="sticky top-0 dark:bg-base-200 bg-gray-800 border-b border-gray-700 z-50">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ml-4 ">
         <a
           href="/home"
@@ -51,12 +51,12 @@ export function NavBar({ items }: { items: TOCItem[] }) {
             class="h-11 mr-3 rounded-full"
             alt="profile-picture"
           />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap text-primary-content">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
             Judah High
           </span>
         </a>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 borderrounded-lg bg-base-200 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+          <ul class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 borderrounded-lg dark:bg-base-200 bg-gray-800 md:flex-row md:space-x-8 md:mt-0 md:border-0">
           <li>
               <a
                 href="/home"
@@ -123,13 +123,13 @@ export function NavBar({ items }: { items: TOCItem[] }) {
         <div class="md:hidden dropdown dropdown-end z-40">
           <label
             tabindex="0"
-            class="btn btn-primary-content mr-3 rounded-lg hover:bg-gray-600 text-primary-content"
+            class="btn dark:bg-base-200 bg-gray-950 border-none mr-3 rounded-lg hover:bg-gray-600 text-primary-content"
           >
             <img class="w-6 h-6" src="../public/dots.png"></img>
           </label>
           <ul
             tabindex="0"
-            class="dropdown-content z-[1] menu p-2 shadow bg-base-200 rounded-box w-52 items-center"
+            class="dropdown-content z-[1] menu p-2 shadow dark:bg-base-200 bg-gray-800 rounded-box w-52 items-center"
           >
             <li>
               <a
