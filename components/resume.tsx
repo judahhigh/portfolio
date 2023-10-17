@@ -34,10 +34,10 @@ export function Resume({ profile }: { profile: Profile }) {
       <div class="grid grid-cols-6 gap-0">
         <TOC items={items} />
         <div class="col-span-6 md:col-span-5 flex flex-col h-full justify-start items-center">
-          <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
+          <p class="text-6xl md:text-8xl font-extrabold py-8 text-black dark:text-white">
             Resume
           </p>
-          <p id="introduction" class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+          <p id="introduction" class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
             Introduction
           </p>
           <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -54,7 +54,7 @@ export function Resume({ profile }: { profile: Profile }) {
           <div class="divider px-8"></div>
 
           <div class={sectionClass} id="education">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Education
             </p>
             <ul class="flex flex-col list-none justify-items-center items-center gap-2">
@@ -67,7 +67,7 @@ export function Resume({ profile }: { profile: Profile }) {
                   University
                 </a>
               </li>
-              <li class="text-lg md:text-2xl text-center text-primary-content">
+              <li class="text-lg md:text-2xl text-center text-black dark:text-white">
                 B.S. ACS Certified Chemistry - Appalachian State University
               </li>
             </ul>
@@ -82,7 +82,7 @@ export function Resume({ profile }: { profile: Profile }) {
           <div class="divider px-8"></div>
 
           <div class={sectionClass} id="languages">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Languages
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -92,7 +92,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="webframeworks">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Web Frameworks
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -102,7 +102,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="libraries">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Libraries
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -112,7 +112,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="runtimes">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Runtimes, Servers, and Bundlers
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -122,7 +122,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="dataops">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Data Analysis and Manipulation
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -132,7 +132,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="testing">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Testing
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -142,7 +142,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="dbs">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Databases
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -152,7 +152,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="devops">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               DevOps
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -162,7 +162,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={sectionClass} id="tools">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Tools
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -173,7 +173,7 @@ export function Resume({ profile }: { profile: Profile }) {
           </div>
           <div class="divider px-8 pt-8"></div>
           <p
-            class="text-3xl md:text-4xl font-bold pb-8 pt-16 text-primary-content"
+            class="text-3xl md:text-4xl font-bold pb-8 pt-16 text-black dark:text-white"
             id="cloud"
           >
             Cloud Skills
@@ -186,7 +186,7 @@ export function Resume({ profile }: { profile: Profile }) {
             maintain production systems.
           </p>
           <div class={cloudSectionClass} id="cloud_infrastructure">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Web Application Infrastructure
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -196,7 +196,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_compute">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Serverless Computation
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -206,7 +206,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_db">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Database and Storage
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -216,7 +216,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_deployment">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Frontend Development and Deployment
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -226,7 +226,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_cicd">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Development and Deployment Tools
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc justify-items-center gap-2">
@@ -236,7 +236,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_logging">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Monitoring and Logging
             </p>
             <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
@@ -246,7 +246,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_auth">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Authentication and Authorization
             </p>
             <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
@@ -256,7 +256,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_data">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Data Analysis and Data Insights
             </p>
             <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
@@ -266,7 +266,7 @@ export function Resume({ profile }: { profile: Profile }) {
             </ul>
           </div>
           <div class={cloudSectionClass} id="cloud_events">
-            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-primary-content">
+            <p class="text-2xl md:text-3xl font-semibold pb-8 text-center text-black dark:text-white">
               Messaging and Event Processing
             </p>
             <ul class="grid grid-cols-1 list-disc justify-items-center gap-2">
@@ -279,7 +279,7 @@ export function Resume({ profile }: { profile: Profile }) {
           <div class="divider px-8 pt-8"></div>
 
           <div class={sectionClass} id="other">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Other
             </p>
             <ul class="grid lg:grid-cols-3 md:grid-cols-1 list-disc lg:justify-items-stretch justify-items-center gap-2">
@@ -292,7 +292,7 @@ export function Resume({ profile }: { profile: Profile }) {
           <div class="divider px-8 pt-6"></div>
 
           <div class={sectionClass} id="publications">
-            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-primary-content">
+            <p class="text-3xl md:text-4xl font-bold pb-8 text-center text-black dark:text-white">
               Publications
             </p>
             <ul class="flex flex-col list-none justify-items-center items-center gap-2">
