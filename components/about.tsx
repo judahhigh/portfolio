@@ -13,10 +13,10 @@ export function About() {
         ></img>
       </div>
       <div class="flex flex-col justify-start items-center justify-items-center">
-        <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
+        <p class="text-6xl md:text-8xl font-extrabold py-8 text-black dark:text-white">
           About Me
         </p>
-        <p class="w-full text-4xl md:text-6xl font-semibold pb-8 text-primary-content text-center">
+        <p class="w-full text-4xl md:text-6xl font-semibold pb-8 text-black dark:text-white text-center">
           How I got into software engineering
         </p>
         <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -44,10 +44,10 @@ export function About() {
           fact that while I was formally a chemist, I fulfilled the role of a
           developer as well.
         </p>
-        <p class="text-4xl md:text-6xl font-semibold p-8 text-primary-content text-center">
+        <p class="text-4xl md:text-6xl font-semibold p-8 text-black dark:text-white text-center">
           Life outside of programming
         </p>
-        <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
+        <p class="text-3xl md:text-4xl font-semibold pb-8 text-black dark:text-white text-center">
           Nature
         </p>
         <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -57,7 +57,7 @@ export function About() {
           many of the 14,000+ ft peaks, and have backpacked many long-mile treks
           in the wilderness, like the Four Pass Loop near the Maroon Bells.
         </p>
-        <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
+        <p class="text-3xl md:text-4xl font-semibold pb-8 text-black dark:text-white text-center">
           Powerlifting
         </p>
         <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -69,7 +69,7 @@ export function About() {
           Return. My best lifts were as follows:
         </p>
         <ul class="flex flex-col gap-4 list-disc justify-center items-center">
-          <li class="text-2xl md:text-4xl text-primary-content">
+          <li class="text-2xl md:text-4xl text-black dark:text-white">
             <a
               class="hover:text-accent"
               href="https://www.youtube.com/clip/UgkxMIygSoabDwo97FvhFWBmomBLeQ42ednW"
@@ -78,7 +78,7 @@ export function About() {
               <strong>Bench</strong>: 231.5 lb
             </a>
           </li>
-          <li class="text-2xl md:text-4xl text-primary-content">
+          <li class="text-2xl md:text-4xl text-black dark:text-white">
             <a
               class="hover:text-accent"
               href="https://www.youtube.com/clip/Ugkx85C6F-28LJiRDXVpnc7StK7wldSYO8vi"
@@ -87,7 +87,7 @@ export function About() {
               <strong>Squat</strong>: 462.9 lb
             </a>
           </li>
-          <li class="text-2xl md:text-4xl text-primary-content">
+          <li class="text-2xl md:text-4xl text-black dark:text-white">
             <a
               class="hover:text-accent"
               href="https://www.youtube.com/clip/UgkxsNTkzmJLBGjzoHlbJXyX4cmMejjxmpJw"
@@ -97,7 +97,7 @@ export function About() {
             </a>
           </li>
         </ul>
-        <p class="text-3xl md:text-4xl font-semibold py-8 p-8 text-primary-content text-center">
+        <p class="text-3xl md:text-4xl font-semibold py-8 p-8 text-black dark:text-white text-center">
           Travel
         </p>
         <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -107,7 +107,7 @@ export function About() {
           find that travel and new life experience lead to fulfillment and
           broadened perspective.
         </p>
-        <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
+        <p class="text-3xl md:text-4xl font-semibold pb-8 text-black dark:text-white text-center">
           Food
         </p>
         <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -116,7 +116,7 @@ export function About() {
           perfect what I know. While I don't quite have the flavor/spice
           intuition that top chefs possess, I get better every day.
         </p>
-        <p class="text-3xl md:text-4xl font-semibold pb-8 text-primary-content text-center">
+        <p class="text-3xl md:text-4xl font-semibold pb-8 text-black dark:text-white text-center">
           Music
         </p>
         <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -131,7 +131,7 @@ export function About() {
           before. Electronic music provides a space where my musical creativity
           can be maximized.
         </p>
-        <p class="text-4xl md:text-6xl font-semibold pb-8 text-primary-content text-center">
+        <p class="text-4xl md:text-6xl font-semibold pb-8 text-black dark:text-white text-center">
           Takeaway
         </p>
         <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
