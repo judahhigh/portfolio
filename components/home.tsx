@@ -10,7 +10,7 @@ export function Home({ profile }: { profile: Profile }) {
       <div class="flex flex-col">
         <NavBar items={[]} />
         <div class="flex flex-col h-full justify-start items-center">
-          <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
+          <p class="text-6xl md:text-8xl font-extrabold py-8 text-black dark:text-white">
             Home
           </p>
           <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl pb-8 px-8 text-justify">
@@ -32,17 +32,17 @@ export function Home({ profile }: { profile: Profile }) {
             engineer that takes pride in being able to quickly adapt to
             technology and industry shifts.
           </p>
-          <p class="text-4xl md:text-6xl font-extrabold py-8 text-primary-content">
+          <p class="text-4xl md:text-6xl font-extrabold py-8 text-black dark:text-white">
             Table of Contents
           </p>
           <div class="w-full px-16 lg:w-9/12 xl:w-6/12">
-            <div tabindex="0" class="collapse collapse-plus bg-base-200 mb-4">
+            <div tabindex="0" class="collapse collapse-plus bg-base-300 dark:bg-base-200 mb-4">
               <input type="checkbox" name="my-accordion-1" class="peer" />
-              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content peer-checked:bg-gray-800">
+              <div class="collapse-title text-xl md:text-3xl text-center text-black dark:text-white dark:peer-checked:bg-gray-800 peer-checked:bg-gray-100">
                 Resume Page
               </div>
-              <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
-                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify">
+              <div class="collapse-content flex flex-col justify-center items-center gap-4 dark:peer-checked:bg-gray-800 peer-checked:bg-gray-100">
+                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify text-black dark:text-white">
                   This page contains up-to-date information on all of the skills
                   I have experience with either through work or from personal
                   endeavors. This page includes work experience, education,
@@ -60,13 +60,13 @@ export function Home({ profile }: { profile: Profile }) {
                 </button>
               </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200 mb-4">
+            <div class="collapse collapse-plus bg-base-300 dark:bg-base-200 mb-4">
               <input type="checkbox" name="my-accordion-1" class="peer" />
-              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content peer-checked:bg-gray-800">
+              <div class="collapse-title text-xl md:text-3xl text-center text-black dark:text-white dark:peer-checked:bg-gray-800 peer-checked:bg-gray-100">
                 Projects Page
               </div>
-              <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
-                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify">
+              <div class="collapse-content flex flex-col justify-center items-center gap-4 dark:peer-checked:bg-gray-800 peer-checked:bg-gray-100">
+                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify text-black dark:text-white">
                   Personal projects are a great way to learn a new language,
                   technology, or skill. I have stood up several personal
                   projects, including this website, that have helped me become a
@@ -85,13 +85,13 @@ export function Home({ profile }: { profile: Profile }) {
                 </button>
               </div>
             </div>
-            <div class="collapse collapse-plus bg-base-200 mb-4">
+            <div class="collapse collapse-plus bg-base-300 dark:bg-base-200 mb-4">
               <input type="checkbox" name="my-accordion-1" class="peer" />
-              <div class="collapse-title text-xl md:text-3xl text-center text-primary-content peer-checked:bg-gray-800">
+              <div class="collapse-title text-xl md:text-3xl text-center text-black dark:text-white dark:peer-checked:bg-gray-800 peer-checked:bg-gray-100">
                 About Me Page
               </div>
-              <div class="collapse-content flex flex-col justify-center items-center gap-4 peer-checked:bg-gray-800">
-                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify">
+              <div class="collapse-content flex flex-col justify-center items-center gap-4 dark:peer-checked:bg-gray-800 peer-checked:bg-gray-100">
+                <p class="text-lg md:text-2xl lg:w-9/12 xl:w-6/12 text-justify text-black dark:text-white">
                   Every person's story is different. What defines us is not just our
                   professional experience, but our interests, our hobbies, our
                   preferences, our stories. This page goes deeper into who I am,
@@ -111,10 +111,10 @@ export function Home({ profile }: { profile: Profile }) {
               </div>
             </div>
           </div>
-          <p class="text-4xl md:text-6xl font-extrabold pt-16 pb-8 text-primary-content">
+          <p class="text-4xl md:text-6xl font-extrabold pt-16 pb-8 text-black dark:text-white">
             About this website
           </p>
-          <p class="text-2xl md:text-3xl font-extrabold pb-8 text-primary-content">
+          <p class="text-2xl md:text-3xl font-extrabold pb-8 text-black dark:text-white">
             Motivation
           </p>
           <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
@@ -131,7 +131,7 @@ export function Home({ profile }: { profile: Profile }) {
             forward to an opportunity to try HTMX on something bigger, and more
             complex than this portfolio.
           </p>
-          <p class="text-2xl md:text-3xl font-extrabold pb-8 text-primary-content">
+          <p class="text-2xl md:text-3xl font-extrabold pb-8 text-black dark:text-white">
             Tech Stack
           </p>
           <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
@@ -159,7 +159,7 @@ export function Home({ profile }: { profile: Profile }) {
             libraries. Stacking DaisyUI on top of Tailwind leads to an even more
             fluid dev experience getting the styling to look right.
           </p>
-          <p class="text-2xl md:text-3xl font-extrabold pb-8 text-primary-content">
+          <p class="text-2xl md:text-3xl font-extrabold pb-8 text-black dark:text-white">
             A Brief HTMX Tutorial
           </p>
           <p class="text-lg md:text-2xl pb-8 px-8 text-justify lg:w-9/12 xl:w-6/12">
