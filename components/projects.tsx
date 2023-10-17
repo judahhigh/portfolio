@@ -15,10 +15,10 @@ function ProjectItem({
 }: Project) {
   return (
     <div id={id} class="flex flex-col space-x-3 pt-8 justify-center items-center">
-      <p class="text-4xl md:text-6xl font-semibold pb-4 text-center text-primary-content">
+      <p class="text-4xl md:text-6xl font-semibold pb-4 text-center text-black dark:text-white">
         {title}
       </p>
-      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center text-primary-content">
+      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center text-black dark:text-white">
         Github
       </p>
       <ul class="grid grid-cols-1 list-disc pt-8 justify-items-center">
@@ -34,11 +34,11 @@ function ProjectItem({
           </li>
         ))}
       </ul>
-      <p class="text-3xl md:text-4xl font-bold pb-2 pt-8 text-center text-primary-content">
+      <p class="text-3xl md:text-4xl font-bold pb-2 pt-8 text-center text-black dark:text-white">
         Description
       </p>
       <p class="text-lg lg:w-9/12 xl:w-6/12 md:text-2xl pb-8 text-justify">{description}</p>
-      <p class="text-3xl md:text-4xl font-bold pb-2 text-center text-primary-content">
+      <p class="text-3xl md:text-4xl font-bold pb-2 text-center text-black dark:text-white">
         Languages
       </p>
       <ul class="grid grid-cols-1 list-disc ps-8 justify-items-center">
@@ -46,7 +46,7 @@ function ProjectItem({
           <li class="text-lg md:text-2xl">{lang}</li>
         ))}
       </ul>
-      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center text-primary-content">
+      <p class="text-3xl md:text-4xl font-bold pb-2 pt-4 text-center text-black dark:text-white">
         Technologies
       </p>
       <ul class="grid grid-cols-1 list-disc ps-8 justify-items-center">
@@ -70,7 +70,7 @@ export function ProjectList({ projects }: { projects: Project[] }) {
       <div class="grid grid-cols-6 gap-0">
         <TOC items={tocItems} />
         <div class="col-span-6 md:col-span-5 flex flex-col h-full justify-start items-center">
-          <p class="text-6xl md:text-8xl font-extrabold py-8 text-primary-content">
+          <p class="text-6xl md:text-8xl font-extrabold py-8 text-black dark:text-white">
             Projects
           </p>
           <p class="w-full lg:w-9/12 xl:w-6/12 text-lg md:text-2xl py-8 px-8 text-justify">
