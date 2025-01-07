@@ -27,6 +27,75 @@ export function WorkExperience() {
         of what I am capable of as a professional software engineer.
       </p>
       <p class="text-2xl md:text-3xl font-normal text-center text-secondary rounded-xl pb-4">
+        Software Engineer - Pearson
+      </p>
+      <div class={work_section}>
+        <input type="checkbox" name="my-accordion-1" class="peer" />
+        <div class={work_section_header}>Assessments and Qualifications Web Application</div>
+        <div class={work_section_body}>
+          <p class={description_style}>Description</p>
+          <p class="text-lg text-justify px-8 text-black dark:text-gray-400">
+            A web application used by hundreds of domestic and global customers to fulfill assessments and qualifications duties for a large variety of knowledge domains from traditional school subjects (English, Chemistry, etc.) to specialized career training. My role as a senior software engineer was to maintain and enhance this web application to fulfill evolving customer requirements. The web application consists of a predominantly JavaScript front-end, a Go back-end, and a MongoDB database. The web application was provisioned and maintained on cloud infrastructure in a scalable manner.
+          </p>
+          <p class={contribution_style}>Contributions</p>
+          <ul class="list-disc px-8">
+            <li class={contribution_point}>
+              Leveraged test-driven development in the creation of the product's 1st automated test suite with 500+ tests and counting. The test suite spans both the front- and back-end.
+            </li>
+            <li class={contribution_point}>
+              Re-engineered heavy frontend data processing mechanisms via a WASM compiled Rust layer to enhance frontend performance and security.
+            </li>
+            <li class={contribution_point}>
+              Implemented various database optimization strategies to futureproof the web application's data requirements. Strategies employed include schema re-design, indexing, concurrent database operations, reduced schema data fetching, and logical re-design of many database query operations heavily used within the web application. In one case, I improved the performance of a back-end data processing function involving heavy database query use by up to 6x.
+            </li>
+            <li class={contribution_point}>
+              Pioneered the adoption of TypeScript on the frontend to promote error-tolerance and readability, especially in situations involving large unwieldy objects prone to bug introduction through regular front-end code updates.
+            </li>
+            <li class={contribution_point}>
+              Promoted the use of functional paradigms on both the front- and back-end to promote effective error handling and to alleviate code-complexity concerns.
+            </li>
+            <li class={contribution_point}>
+              Worked in a small team of 4 developers adhering to an Agile Scrum methodology.
+            </li>
+          </ul>
+          <p class={project_style}>Project contributions at a glance</p>
+          <div class="grid grid-cols-1 md:grid-cols-3 bg-base-200 rounded-2xl shadow-lg">
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Insertions</div>
+              <div class="stat-value text-success">58.6K</div>
+            </div>
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Deletions</div>
+              <div class="stat-value text-error">11.5K</div>
+            </div>
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Commits</div>
+              <div class="stat-value text-accent">164</div>
+            </div>
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Avg Lines/Day</div>
+              <div class="stat-value text-info">504</div>
+            </div>
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Tests</div>
+              <div class="stat-value text-secondary">500+</div>
+            </div>
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Primary Language</div>
+              <div class="stat-value text-warning">Go & JS</div>
+            </div>
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Team size</div>
+              <div class="stat-value text-info">4</div>
+            </div>
+            <div class="stat place-items-center px-16">
+              <div class="stat-title">Team role</div>
+              <div class="stat-value text-accent">Senior Engineer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-2xl md:text-3xl font-normal text-center text-secondary rounded-xl pb-4">
         Principle Software Engineer - Agenus, Inc
       </p>
       <div class={work_section}>

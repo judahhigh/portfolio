@@ -14,6 +14,8 @@ export const profile_db: Profile = {
     "C",
     "Fortran",
     "Bash",
+    "Dart",
+    "Swift"
   ],
   other: [
     "Agile",
@@ -41,7 +43,7 @@ export const profile_db: Profile = {
     "TDD",
   ],
   webFrameworks: [
-    "Actix", "FastAPI", "Rocket", "Svelte/SvelteKit", "Yew", "React", "Tailwind CSS", "Skeleton UI", "Threlte", "Tauri"
+    "Actix", "FastAPI", "Rocket", "Svelte/SvelteKit", "Yew", "React", "Tailwind CSS", "Skeleton UI", "Threlte", "Tauri", "Flutter"
   ],
   runtimesBundlers: ["Next.js", "Node.js", "Bun", "Trunk", "Tokio", "Nginx"],
   libraries: [
