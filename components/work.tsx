@@ -89,8 +89,9 @@ export function WorkExperience() {
               <div class="stat-value text-info">4</div>
             </div>
             <div class="stat place-items-center px-16">
-              <div class="stat-title">Team role</div>
-              <div class="stat-value text-accent">Senior Engineer</div>
+              <div class="stat-title">Cloud Services</div>
+              <div class="stat-value text-warning">14</div>
+              <div class="stat-desc">AWS</div>
             </div>
           </div>
         </div>
