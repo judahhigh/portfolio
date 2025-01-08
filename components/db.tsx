@@ -51,9 +51,9 @@ export const profile_db: Profile = {
   ],
   dataops: ["Pandas", "Polars", "PySpark"],
   testing: ["PyTest", "Cargo", "Great Expectations", "MyPy", "Pre-Commit", "Tox", "Moto", "Black", "flake8"],
-  dbs: ["PostgreSQL", "SQLite", "Redis", "Prisma", "Diesel", "MySQL"],
+  dbs: ["PostgreSQL", "SQLite", "Redis", "Prisma", "Diesel", "MySQL", "MongoDB Atlas"],
   devops: ["Docker", "Git", "Kubernetes"],
-  tools: ["VS Code", "Visual Studio", "Postman", "PGAdmin", "DB Browser for SQLite", "Pyenv", "Pipenv", "Yarn", "npm"],
+  tools: ["VS Code", "Visual Studio", "Postman", "PGAdmin", "DB Browser for SQLite", "Pyenv", "Pipenv", "Yarn", "npm", "Studio3T", "Mongosh", "aws-runas"],
   cloud: {
     webAppInfrastructure: ["AWS ALB", "AWS ECS", "AWS EKS", "AWS Fargate", "AWS VPC", "AWS API Gateway"],
     serverlessCompute: ["AWS Lambda", "AWS Step Functions", "AWS Batch"],
