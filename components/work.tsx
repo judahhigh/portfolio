@@ -35,7 +35,7 @@ export function WorkExperience() {
         <div class={work_section_body}>
           <p class={description_style}>Description</p>
           <p class="text-lg text-justify px-8 text-black dark:text-gray-400">
-            A web application used by hundreds of domestic and global customers to fulfill assessments and qualifications duties for a large variety of knowledge domains from traditional school subjects (English, Chemistry, etc.) to specialized career training. My role as a senior software engineer was to maintain and enhance this web application to fulfill evolving customer requirements. The web application consists of a predominantly JavaScript front-end, a Go back-end, and a MongoDB database. The web application was provisioned and maintained on cloud infrastructure in a scalable manner.
+            A web application used by thousands of domestic and global customers to fulfill assessments and qualifications duties for a large variety of knowledge domains from traditional school subjects (English, Chemistry, etc.) to specialized career training. My role as a senior software engineer was to maintain and enhance this web application to fulfill evolving customer requirements. The web application consists of a predominantly JavaScript front-end, a Go back-end, and a MongoDB database. The web application was provisioned and maintained on cloud infrastructure in a scalable manner.
           </p>
           <p class={contribution_style}>Contributions</p>
           <ul class="list-disc px-8">
